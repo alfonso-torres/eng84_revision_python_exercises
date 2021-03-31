@@ -56,42 +56,58 @@
 # 7. Create a class called Jose and initialise the class that takes two arguments
 # create an object of that class
 
-class Jose:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+#class Jose:
+#    def __init__(self, name, age):
+#        self.name = name
+#        self.age = age
 
-person = Jose("Jose", 24)
-print(person.name)
-print(person.age)
+#person = Jose("Jose", 24)
+#print(person.name)
+#print(person.age)
 
 # Create another object from the same class, called student
 # print the attributes
 
-student = Jose("James", 99)
-print(student.name)
-print(student.age)
+#student = Jose("James", 99)
+#print(student.name)
+#print(student.age)
 
 # 8. Write the correct syntax to create a set
-setA = {1, 2, 3, 4}
+#setA = {1, 2, 3, 4}
 # write difference between sets and all other collectons
 # answer: unordered
-print(setA)
+#print(setA)
 
-setA.update({5})
-print(setA)
-setA.add(10)
-print(setA)
+#setA.update({5})
+#print(setA)
+#setA.add(10)
+#print(setA)
 
 # 9. Create a method that takes one argument as a string(my name)
 # if the name == "Dunni" return true, else return false
 
-def is_jose(name):
-    if name == "Jose":
-        return True
-    else:
-        return False
+#def is_jose(name):
+#    if name == "Jose":
+#        return True
+#    else:
+#        return False
 
-print(is_jose("Jose"))
-print(is_jose("James"))
+#print(is_jose("Jose"))
+#print(is_jose("James"))
 
+# 10. Create a class called human with one method called breathe that returns breathing
+# Create another class called student that inherits from human and create object of student class
+# and call the function from the parent class
+
+class Human:
+    def __init__(self):
+        self.alive = True
+
+    def breathe(self):
+        return "breathing"
+
+class Student(Human):
+    pass
+
+student = Student()
+print(student.breathe())
