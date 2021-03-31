@@ -27,7 +27,7 @@
 #for num in range(5):
 #    numbers.append(num)
 
-# 5. Create a tuple with the same information
+# Create a tuple with the same information
 
 #tuple_number = (0, 1, 2, 3, 4)
 #numbers_tuple = tuple(numbers)
@@ -40,7 +40,7 @@
 # BECAUSE TUPLES ARE IMMUTABLE
 # UNLIKE LISTS, THAT CAN BE CHANGED AS THEY ARE MUTABLE
 
-# 6. Create a dictionary with 2 key pairs
+# 5. Create a dictionary with 2 key pairs
 # first key is 'name' and the value of the name is James
 # second key is 'age', and the value is an int 18
 # print tha values of keys
@@ -53,7 +53,7 @@
 #print(my_dictionary["name"])
 #print(my_dictionary["age"])
 
-# 7. Create a class called Jose and initialise the class that takes two arguments
+# 6. Create a class called Jose and initialise the class that takes two arguments
 # create an object of that class
 
 #class Jose:
@@ -72,7 +72,7 @@
 #print(student.name)
 #print(student.age)
 
-# 8. Write the correct syntax to create a set
+# 7. Write the correct syntax to create a set
 #setA = {1, 2, 3, 4}
 # write difference between sets and all other collectons
 # answer: unordered
@@ -83,8 +83,8 @@
 #setA.add(10)
 #print(setA)
 
-# 9. Create a method that takes one argument as a string(my name)
-# if the name == "Dunni" return true, else return false
+# 8. Create a method that takes one argument as a string(my name)
+# if the name == "Jose" return true, else return false
 
 #def is_jose(name):
 #    if name == "Jose":
@@ -95,7 +95,7 @@
 #print(is_jose("Jose"))
 #print(is_jose("James"))
 
-# 10. Create a class called human with one method called breathe that returns breathing
+# 9. Create a class called human with one method called breathe that returns breathing
 # Create another class called student that inherits from human and create object of student class
 # and call the function from the parent class
 
