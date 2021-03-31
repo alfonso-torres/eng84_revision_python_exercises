@@ -17,19 +17,19 @@
 # If a == b and c == d print true
 # write an example of the boolean operators
 
-if "a" == "b" and "c" == "d":
-    print(True)
+#if "a" == "b" and "c" == "d":
+#    print(True)
 
 # Create a list of five numbers, starting from zero
 
-numbers = [0, 1, 2, 3, 4]
+#numbers = [0, 1, 2, 3, 4]
 
 #for num in range(5):
 #    numbers.append(num)
 
 # Create a tuple with the same information
 
-tuple_number = (0, 1, 2, 3, 4)
+#tuple_number = (0, 1, 2, 3, 4)
 #numbers_tuple = tuple(numbers)
 #print(tuple_number)
 #print(numbers_tuple)
@@ -39,3 +39,16 @@ tuple_number = (0, 1, 2, 3, 4)
 # CAN NOT CHANGE A TUPLE
 # BECAUSE TUPLES ARE IMMUTABLE
 # UNLIKE LISTS, THAT CAN BE CHANGED AS THEY ARE MUTABLE
+
+# Create a dictionary with 2 key pairs
+# first key is 'name' and the value of the name is James
+# second key is 'age', and the value is an int 18
+# print tha values of keys
+
+my_dictionary = {
+    "name": "James",
+    "age": 18
+}
+
+print(my_dictionary["name"])
+print(my_dictionary["age"])
