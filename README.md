@@ -32,3 +32,23 @@
 - Create a class called Human with one function called breathe that returns "breathing".
 - Create another class called Student that inherits from Human.
 - Create a Student object and call the function from the parent class.
+## **__Task 10__**
+- Write the correct syntax to use the keyword super from the previous exercise.
+## **__Task 11__**
+- Create a variable called user_data and store 0 to 4 in that list.
+- Create a function that makes an argument as a list.
+- The function return True if the datatype is list, False otherwise.
+## **__Task 12__**
+- Create a function called get_percentage.
+- Takes two integers as arguments.
+- Returns the percentage of two.
+## **__Task 13__**
+- Create a function.
+- Takes 2 arguments as int.
+- Divide first val by second val.
+- Returns the outcome.
+- Check if the numbers given is divisible by 0.
+- Through an error if it can not be divided by 0 else the value.
+## **__Task 14__**
+- Write five odd numbers in a list and then five even numbers in another list.
+- Iterate through these lists to combine and display the numbers in a method.

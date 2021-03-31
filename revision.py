@@ -99,15 +99,81 @@
 # Create another class called student that inherits from human and create object of student class
 # and call the function from the parent class
 
-class Human:
-    def __init__(self):
-        self.alive = True
+#class Human:
+#    def __init__(self):
+#        self.alive = True
 
-    def breathe(self):
-        return "breathing"
+#    def breathe(self):
+#        return "breathing"
 
-class Student(Human):
-    pass
+#class Student(Human):
+#    pass
 
-student = Student()
-print(student.breathe())
+#student = Student()
+#print(student.breathe())
+
+# 10. Write the correct syntax to use the keyword super
+#class Human:
+#    def __init__(self):
+#        self.alive = True
+
+#    def breathe(self):
+#        return "breathing"
+
+#class Student(Human):
+#    def __init__(self):
+#        super().__init__() # Super refers to the parent class of a class, when used in this manner you can use methods of the parent class such as the __init__ to affect the child
+
+#student = Student()
+#print(student.breathe())
+
+# 11.
+# Create a variable called user_data and store 0 to 4 in that list
+# Create a function that makes an argument as a list
+# The function return True if the datatype is list, False otherwise
+
+#user_data = [0, 1, 2, 3, 4]
+#user = 1
+
+#def is_list(the_list):
+#    if type(the_list) == list:
+#        return True
+#    else:
+#        return False
+
+#print(is_list(user_data))
+#print(is_list(user))
+
+# 12.
+# Create a function called get_percentage
+# Takes two integers as arguments
+# Returns the percentage of two
+
+#def get_percentage(num1, num2):
+#    percentage_num1 = (num1 / (num1 + num2)) * 100
+#    return percentage_num1
+
+#print(get_percentage(10, 90))
+
+# 13.
+# Create a function
+# Takes 2 arguments as int
+# Divide first val by second val
+# Returns the outcome
+# Check if the numbers given is divisible by o.
+# Through an error if it can not be divided by 0 else the value
+
+#def divide(num1, num2):
+#    try:
+#        return int(num1) / int(num2)
+#    except ZeroDivisionError as error:
+#        return error
+
+#print(divide(9, 0))
+
+# 14.
+# Write five odd numbers in a list and then five even numbers in another list
+# Iterate through these lists to combine and display the numbers in a method
+
+odd_numbers = [1, 3, 5, 7, 9]
+even_numbers = [2, 4, 6, 8, 10]
