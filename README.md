@@ -48,7 +48,15 @@
 - Divide first val by second val.
 - Returns the outcome.
 - Check if the numbers given is divisible by 0.
-- Through an error if it can not be divided by 0 else the value.
+- Throw an error if it can not be divided by 0 else the value.
 ## **__Task 14__**
 - Write five odd numbers in a list and then five even numbers in another list.
 - Iterate through these lists to combine and display the numbers in a method.
+## **__Task 15__**
+- Create a dictionary called shopping_list with 3 key value pairs.
+- Milk: 1, yogurt: 1.10, ice cream: 2.5
+- Create a function that takes an arg as the dictionary. Iterate through the values of dictionary and add the total value and return the total cost.
+## **__Task 16__**
+- Create a dictionary called shopping_list with 3 key value pairs.
+- Milk: 1, yogurt: 1.10, ice cream: 2.5
+- Get the cost of the yogurt.

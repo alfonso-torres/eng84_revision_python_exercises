@@ -175,5 +175,73 @@
 # Write five odd numbers in a list and then five even numbers in another list
 # Iterate through these lists to combine and display the numbers in a method
 
-odd_numbers = [1, 3, 5, 7, 9]
-even_numbers = [2, 4, 6, 8, 10]
+#odd_numbers = [1, 3, 5, 7, 9]
+#even_numbers = [2, 4, 6, 8, 10]
+
+#list1 = [1, 3, 5, 7, 9]
+
+#list2 = [2, 4, 6, 8, 10]
+
+#both = []
+
+#def combined(odds, evens):
+#    for odd, even in zip(odds, evens):
+#        both.append(odd)
+#        both.append(even)
+
+#    return both
+
+#print(combined(list1, list2))
+
+#def combine_odd_even(odd_list, even_list):
+#    new_list = odd_list
+#    count = 1
+#    for n in even_list:
+#        new_list.insert(count, n)
+#        count += 2
+
+#    print(new_list)
+
+#odd_nums = [1, 3, 5, 7, 9]
+#even_nums = [0, 2, 4, 6, 8]
+#num_list = []
+
+#def odd_even(odd_nums, even_nums, num_list):
+#    for x in range(5):
+#        num_list.append(even_nums[x])
+#        num_list.append(odd_nums[x])
+#    print(num_list)
+
+#odd_even(odd_nums, even_nums, num_list)
+
+# 15.
+# Create a dictionary called shopping_list with 3 key value pairs.
+# Milk: 1, yogurt: 1.10, ice cream: 2.5
+# Create a function that takes an arg as the dictionary. Iterate through the values of dictionary and add the total value and return the total cost
+
+#shopping_list = {
+#    "milk": 1,
+#    "yogurt": 1.50,
+#    "ice cream": 2.5
+#}
+
+#def total_cost(dictionary):
+#    amount = 0
+#    for item in dictionary.values():
+#        amount += item
+#    return amount
+
+#print(total_cost(shopping_list))
+
+# 16.
+# Create a dictionary called shopping_list with 3 key value pairs.
+# Milk: 1, yogurt: 1.10, ice cream: 2.5
+# Get the cost of the yogurt.
+
+#shopping_list = {
+#    "milk": 1,
+#    "yogurt": 1.50,
+#    "ice cream": 2.5
+#}
+
+#print(shopping_list["yogurt"])
